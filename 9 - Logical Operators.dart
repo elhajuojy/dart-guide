@@ -10,6 +10,6 @@ void main(List<String> args) {
   //true  or
   print(a > 10 || b > 10);
 
-  //true not
+  //false not
   print(!(a > 10 || b > 10));
 }
