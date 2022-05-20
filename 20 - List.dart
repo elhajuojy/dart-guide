@@ -13,4 +13,13 @@ void main(List<String> args) {
     ["elhjuojy", "jebbar", "belhaid", "bounacer"]
   ];
   print(ListInsideList[0][1]);
+
+  //List add - length
+
+  List namess = ["elhjuojy", "belhaid", "jebbar"];
+  namess.add("mazouzi");
+
+  for (int i = 0; i < namess.length; i++) {
+    print(namess[i]);
+  }
 }
