@@ -22,4 +22,8 @@ void main(List<String> args) {
   for (int i = 0; i < namess.length; i++) {
     print(namess[i]);
   }
+
+  namess.forEach((element) {
+    print(element);
+  });
 }
