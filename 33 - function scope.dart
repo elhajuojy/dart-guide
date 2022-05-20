@@ -7,5 +7,5 @@ void main(List<String> args) {
   }
 
   //we can't call c outside function because he is known inside the function he is local var
-  print(c);
+  //print(c);
 }
