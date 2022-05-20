@@ -26,4 +26,10 @@ void main(List<String> args) {
 
   int c = sumNumber(1, 4);
   print(c);
+
+  //return same type of function
+  int sub(int a, int b) {
+    int c = a * b;
+    return c;
+  }
 }
