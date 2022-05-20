@@ -1,11 +1,22 @@
 void main(List<String> args) {
   //values can not be repeted in the set
-  Set names = {"mehdi", "elhjuojy", "20"};
-  print(names);
+  Set Setnames = {"mehdi", "elhjuojy", "20"};
+  List Listnames = ["mehdi", "elhjuojy", "20", '20'];
+  print(Listnames);
 
-  names.isEmpty;
-  names.first;
-  names.last;
-  names.firstWhere((element) => false);
-  names.addAll(["Alive", "FullStack Developer"]);
+  Setnames.isEmpty;
+  Setnames.first;
+  Setnames.last;
+
+  Setnames.addAll(["Alive", "FullStack Developer"]);
+  //convert between list map and set
+  print(Setnames.toList());
+  print(Listnames.toSet());
+
+  List infoList = [];
+  Map MapInfo = {"name": "mehdi", "age": 22};
+  MapInfo.forEach((key, value) {
+    infoList.add(value);
+  });
+  print(infoList);
 }
