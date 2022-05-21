@@ -6,7 +6,7 @@ void main(List<String> args) {
 //this class made just for inhertance from other class
 // not to create object from
 abstract class Mobile {
-  String brand = 'A known';
+  String brand = 'unknown';
 }
 
 class iphone extends Mobile {
